@@ -10,7 +10,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 public class SpringBootWithMongoDbApplication {
 	 @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(StudentApplication.class);
+        return application.sources(SpringBootWithMongoDbApplication.class);
     }
 
 	public static void main(String[] args) {
